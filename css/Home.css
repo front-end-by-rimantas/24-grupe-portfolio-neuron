@@ -6,6 +6,10 @@
  
 /* <!-- header/hero KAROLIS --> */
 
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
 display: inline-block;
 padding-left: 60px;
@@ -13,6 +17,14 @@ padding-right: 60px;
 width: 100%;
 
 }
+
+.toolbar {
+    padding: 22px 60px 22px;
+
+}
+
+hr {
+    margin-top: 22px;}
 
 .icons {
     float: right;
@@ -26,10 +38,27 @@ width: 100%;
 a {
     color: #01a0f9;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0 none;
+  color: #09c778;
+}
 
+.contact > .fa-phone {
+    padding-left: 20px;
+}
 
+.contact > .fa {
+    padding-right: 10px;
+}
+
+.fa-google-plus, .fa-twitter, .fa-linkedin {
+    margin-left: 15px;
+}
 
 /* <!-- creativity -->
 <!-- realistic plus numbers JURGITA-->
