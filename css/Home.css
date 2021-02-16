@@ -1,5 +1,6 @@
 @import './components/reset.css';
 @import './components/layout.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* CUSTOM HOME PAGE CSS */
 
@@ -20,6 +21,7 @@ width: 100%;
 
 .toolbar {
     padding: 22px 60px 22px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -35,10 +37,11 @@ hr {
     float: left;
 }
 
-a {
+.contact > a {
     color: #01a0f9;
     text-decoration: none;
     transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;
 }
 
 a:active,
