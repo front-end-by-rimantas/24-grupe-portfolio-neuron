@@ -8,18 +8,19 @@
 
 html, body {
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 
 .container {
 display: inline-block;
-padding-left: 60px;
-padding-right: 60px;
+padding: 0 100px;
 width: 100%;
 
 }
 
 .toolbar {
-    padding: 22px 60px 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -39,7 +40,6 @@ hr {
 .contact > a {
     color: #01a0f9;
     text-decoration: none;
-    transition: all 0.5s;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -48,6 +48,7 @@ a:hover {
   text-decoration: none;
   outline: 0 none;
   color: #09c778;
+  transition: all 1s;
 }
 
 .contact > .fa-phone {
@@ -56,11 +57,15 @@ a:hover {
 
 .contact > .fa {
     padding-right: 10px;
-    line-height: 16px;
+    line-height: 23px;
 }
 
 .icons .fa {
     color: #01a0f9;
+}
+
+.icons .fa:active, .icons .fa:hover {
+    color: #09c778;
 }
 
 .fa-google-plus, .fa-twitter, .fa-linkedin {
