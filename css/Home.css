@@ -41,14 +41,17 @@ hr {
     color: #01a0f9;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    transition: all 1s;
 }
+
+
 
 a:active,
 a:hover {
   text-decoration: none;
   outline: 0 none;
   color: #09c778;
-  transition: all 1s;
+
 }
 
 .contact > .fa-phone {
@@ -58,10 +61,12 @@ a:hover {
 .contact > .fa {
     padding-right: 10px;
     line-height: 23px;
+
 }
 
 .icons .fa {
     color: #01a0f9;
+    transition: all 1s;
 }
 
 .icons .fa:active, .icons .fa:hover {
@@ -70,6 +75,21 @@ a:hover {
 
 .fa-google-plus, .fa-twitter, .fa-linkedin {
     margin-left: 15px;
+}
+
+.logo {
+    padding-top: 15px;
+    float: left;
+}
+
+.header-menu {
+    display: table;
+    float: right;
+}
+
+.header-menu-section {
+    display: table-cell;
+    padding: 15px 0 0 15px;
 }
 
 /* <!-- creativity -->
