@@ -1,5 +1,6 @@
 @import './components/reset.css';
 @import './components/layout.css';
+@import './core.css'
 
 /* CUSTOM HOME PAGE CSS */
 
@@ -8,42 +9,7 @@
 /* <!-- creativity --> */
 /* <!-- realistic plus numbers JURGITA--> */
 /* <!-- core services --> */
-.core {
-    display: inline-block;
-    background-color: #eff1f7;
-}
-h1 {
-    margin-top: 100px;
-    margin-bottom: 40px;
-    font-size: 30px;
-}
-section {
-    display: inline-block;
-    text-align: center;
-}
-h2 {
-margin-top: 40px;
-padding: 20px;
-font-size: 20px;
-}
-p {
-    padding: 40px;
-    line-height: 25px;
-    color: grey;
-}
-.block {
-    margin-bottom: 80px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-.blocks {
-    display: inline-block;
-    width: 280px;
-    height: 360px;
-    margin: 30px;
-    background-color: white;
-    border-radius: 5px;
-}
+
 
 
 /* <!-- latest project --> */
