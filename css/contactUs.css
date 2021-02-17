@@ -1,0 +1,72 @@
+.contact-me {
+    display: inline-block;
+    width: 100%;
+    background-color: #ff65;
+    height: 100vh;
+}
+.contact-information {
+    display: inline-block;
+    font-size: 16px;
+    padding: 44px 50px 30px;
+    width: 26%;
+    float: left;
+    background-color: aquamarine;
+}
+.flaticon-map-location:before {
+    font-size: 100px;
+    color: blue;
+}
+.title {
+    color: black;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+.contact-all{
+
+}
+.contact-us{
+
+}
+.flaticon-mobile-phone:before {
+    font-size: 30px;
+    color: blue;
+    float: left;
+}
+.flaticon-placeholder:before{
+    font-size: 30px;
+    color: blue;
+    float: left;
+}
+.flaticon-mail:before{
+    font-size: 30px;
+    color: blue;
+    float: left;
+}
+h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.message-form {
+    display: inline-block;
+    width: 60%;
+   
+}
+.message-form > label {
+    display: inline-block;
+    float: left;
+    font-size: 0;
+}
+.contact-us {
+
+ }
+ .icon-place {
+     height: auto;
+     display: inline-block;
+     float:left;
+
+ }
+ .contact-us > a {
+float: left;
+ }

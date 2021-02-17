@@ -3,10 +3,10 @@
 @import './components/font/flaticon.css';
 
 
+
 /* CUSTOM HOME PAGE CSS */
 
-/* 
-<!-- header/hero KAROLIS -->
+/*<!-- header/hero KAROLIS -->
 <!-- creativity -->
 <!-- realistic plus numbers JURGITA-->
 <!-- core services -->
@@ -14,5 +14,7 @@
 <!-- news -->
 <!-- works -->
 <!-- recent blog post -->
-<!-- contact me ŽIVILĖ -->
-<!-- footer KAROLIS --> */
+<!-- contact me ŽIVILĖ -->*/
+@import './contactUs.css'
+
+/*<!-- footer KAROLIS --> */
