@@ -114,6 +114,9 @@ a:hover {
     text-decoration: none;    
 }
 
+.header-menu a {
+    text-decoration: none;
+}
 
 
 /* <!-- creativity -->
