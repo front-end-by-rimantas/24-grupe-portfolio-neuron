@@ -85,12 +85,36 @@ a:hover {
 .header-menu {
     display: table;
     float: right;
+
 }
 
 .header-menu-section {
     display: table-cell;
     padding: 15px 0 0 15px;
 }
+
+.header-menu-section {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 300px;
+  
+}
+
+.header-menu-section:hover .dropdown-content {
+    display: block;
+    color: yellow;
+}
+
+.header-menu a:visited {
+    text-decoration: none;    
+}
+
+
 
 /* <!-- creativity -->
 <!-- realistic plus numbers JURGITA-->
