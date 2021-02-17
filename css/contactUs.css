@@ -1,4 +1,4 @@
-.contact-me {
+.neuron-contact {
     display: inline-block;
     width: 100%;
     background-color: #ff65;
@@ -10,11 +10,15 @@
     padding: 44px 50px 30px;
     width: 26%;
     float: left;
-    background-color: aquamarine;
+    background-color: #fff;
 }
 .flaticon-map-location:before {
     font-size: 100px;
-    color: blue;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(0deg, #09c778, #01a0f9);
+ 
 }
 .title {
     color: black;
@@ -26,24 +30,41 @@
 
 }
 .contact-us{
-
+    display: flex;
+    width: 100%;
 }
-.flaticon-mobile-phone:before {
-    font-size: 30px;
-    color: blue;
-    float: left;
+.icon-place{
+    display: inline-block;
+    margin: 0 20px 0 0;
 }
 .flaticon-placeholder:before{
     font-size: 30px;
-    color: blue;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(0deg, #09c778, #01a0f9);
     float: left;
 }
+.flaticon-mobile-phone:before {
+    font-size: 30px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(0deg, #09c778, #01a0f9);
+    float: left;
+}
+
 .flaticon-mail:before{
     font-size: 30px;
-    color: blue;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(0deg, #09c778, #01a0f9);
     float: left;
 }
 h4 {
+    display: block;
+    width: 100%;
     font-size: 16px;
     text-transform: capitalize;
     
@@ -58,15 +79,7 @@ h4 {
     float: left;
     font-size: 0;
 }
-.contact-us {
 
- }
- .icon-place {
-     height: auto;
-     display: inline-block;
-     float:left;
-
- }
  .contact-us > a {
-float: left;
+
  }
