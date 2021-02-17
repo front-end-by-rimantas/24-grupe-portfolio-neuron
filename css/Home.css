@@ -97,6 +97,7 @@ a:active,a:hover {
 .header-menu-section {
     position: relative;
 
+
 }
 
 .dropdown-content {
@@ -104,12 +105,12 @@ a:active,a:hover {
     position: absolute;
     width: 100%;
     min-width: 200px;
-  
 }
 
 .header-menu-section:hover .dropdown-content {
     display: block;
     background-color: #eee;
+    transform: translateX(-50%);
 }
 
 .header-menu a:visited {
@@ -126,7 +127,8 @@ a:active,a:hover {
     display: none;
     position: absolute;
     width: 100%;
-    min-width: 400px;
+    min-width: 600px;
+
 }
 
 .dropdown-content a, .dropdown-content-pages a {
@@ -138,7 +140,9 @@ a:active,a:hover {
 .header-menu-section:hover .dropdown-content-pages {
     display: block;
     background-color:#eee;
-}
+    transform: translateX(-50%);
+    column-count: 3;
+    }
 
 
 /* <!-- creativity -->
