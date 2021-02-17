@@ -46,7 +46,7 @@ hr {
 
 
 
-a:active,a:hover {
+.toolbar a:active, .toolbar a:hover {
   text-decoration: none;
   outline: 0 none;
   color: #09c778;
@@ -105,12 +105,16 @@ a:active,a:hover {
     position: absolute;
     width: 100%;
     min-width: 200px;
+
 }
+
+
 
 .header-menu-section:hover .dropdown-content {
     display: block;
+    color: #eee;
     background-color: #eee;
-    transform: translateX(-50%);
+    transform: translateX(-37%);
 }
 
 .header-menu a:visited {
@@ -134,16 +138,56 @@ a:active,a:hover {
 .dropdown-content a, .dropdown-content-pages a {
     display: block;
     padding: 12px 15px;
-    
+    opacity: 0;
+    animation-name: dropdown-content;
+    animation-duration: 2000ms;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+.dropdown-content a:hover, .dropdown-content-pages a:hover {
+    color: #eee;
+    background-color:#01a0f9;   
 }
 
 .header-menu-section:hover .dropdown-content-pages {
     display: block;
     background-color:#eee;
-    transform: translateX(-50%);
+    transform: translateX(-44%);
     column-count: 3;
     }
 
+
+.container .header-menu .header-menu-section a:hover {
+    color: #eee;
+}
+
+@keyframes dropdown-content {
+
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%
+    }
+}
+    /* @keyframes mouseMove {
+        0% {
+            margin-top: 4px;
+            background-color: #fff;
+            transform: rotate(0deg);
+        }
+        50% {
+            background-color: #fff;
+        }
+        100% {
+            margin-top: 12px;
+            background-color: #fff0;
+            transform: rotate(720deg);
+        }
+    } */
 
 /* <!-- creativity -->
 <!-- realistic plus numbers JURGITA-->
