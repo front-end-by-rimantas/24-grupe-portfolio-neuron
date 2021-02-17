@@ -96,7 +96,7 @@ hr {
 
 .header-menu-section {
     position: relative;
-
+    perspective: 1000px;
 
 }
 
@@ -181,21 +181,7 @@ hr {
         transform: rotateY(0) translateY(0) translateX(-37%);
     }
 }
-    /* @keyframes mouseMove {
-        0% {
-            margin-top: 4px;
-            background-color: #fff;
-            transform: rotate(0deg);
-        }
-        50% {
-            background-color: #fff;
-        }
-        100% {
-            margin-top: 12px;
-            background-color: #fff0;
-            transform: rotate(720deg);
-        }
-    } */
+
 
 /* <!-- creativity -->
 <!-- realistic plus numbers JURGITA-->
