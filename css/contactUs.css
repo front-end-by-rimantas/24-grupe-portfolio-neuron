@@ -12,9 +12,11 @@
 .contact-icon-place {
     display:inline-block;
     width: 100%;
+    float: left;
 }
 .flaticon-map-location:before {
     font-size: 100px;
+    margin: 0;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -31,33 +33,46 @@
     font-family: sans-serif;
 }
 .contacts-all{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
 }
 
 .icon-place{
     display: inline-block;
-    margin: 0 20px 0 0;
+    width: auto;
     float: left;
+    margin: 0 20px 0 0;
+   
 }
 .icon-text{
     display: inline-block;
     width: 100%;
+    float: left;
+  
+   
 }
 h4 {
-    display: block;
+    display: inline-block;
     width: 100%;
     font-size: 16px;
     text-transform: capitalize;
+    float: left;
 }
 .contacts-all > p {
     box-sizing: border-box;
 }
+
 .contact-all > a {
-    display: inline-block;
+    display: block;
     width: 100%;
+    color: #666666;
     float: left;
 }
 .flaticon-placeholder:before{
+    display: inline-block;
     font-size: 30px;
+    margin: 0;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -65,7 +80,9 @@ h4 {
     float: left;
 }
 .flaticon-mobile-phone:before {
+    display: inline-block;
     font-size: 30px;
+    margin: 0;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -74,7 +91,9 @@ h4 {
 }
 
 .flaticon-mail:before{
+    display: inline-block;
     font-size: 30px;
+    margin: 0;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
