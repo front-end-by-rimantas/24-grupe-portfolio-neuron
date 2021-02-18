@@ -3,11 +3,15 @@
 }
 .contact-information {
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 31px;
     padding: 44px 50px 30px;
     width: 100%;
     float: left;
     background-color: #fff;
+    margin-top: 30px;
+    color: #666666;
+
 }
 .contact-icon-place {
     display:inline-block;
@@ -21,10 +25,12 @@
     background-clip: text;
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
+
 }
 .contact-title{
     display: inline-block;
     width: 100%;
+    margin-bottom: 26px;
 }
 .title {
     color: black;
@@ -37,8 +43,14 @@
     width: 100%;
     text-align: left;
 }
-
-.icon-place{
+.sec-icon{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
+.icon{
     display: inline-block;
     width: auto;
     float: left;
@@ -46,11 +58,9 @@
    
 }
 .icon-text{
-    display: inline-block;
-    width: 100%;
+    box-sizing: border-box;
     float: left;
-  
-   
+       
 }
 h4 {
     display: inline-block;
@@ -58,9 +68,11 @@ h4 {
     font-size: 16px;
     text-transform: capitalize;
     float: left;
+    color: #333333;
 }
 .contacts-all > p {
     box-sizing: border-box;
+  
 }
 
 .contact-all > a {
@@ -101,28 +113,40 @@ h4 {
     float: left;
 }
 .message-form {
-    display: inline-block;
-    width: 100%;
 }
+.field {
+}
+
 input{
     display: inline-block;
-    float: left;
-    font-size: 15px;
-    line-height: 40px;
     width: 100%;
-
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border: unset;
+    border-radius: 5px;
+    margin: 0 0 30px;
+    padding: 20px;
 }
 textarea {
     display: inline-block;
     font-size: 15px;
-    line-height: 40px;
+    color: white;
+    line-height: 20px;
     width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border:unset;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 0 30px;
+    padding: 20px;
 }
-.submit-btn {
+::placeholder{
+    color: white;
+}
+.form-btn > button {
     width: 100%;
     line-height: 40px;
 }
 
- .contact-us > a {
-
- }

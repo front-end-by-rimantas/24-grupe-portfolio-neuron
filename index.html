@@ -13,13 +13,6 @@
 
 <body>
     <!-- header/hero KAROLIS JACHIMAVIČIUS-->
-    <div class="container">
-        <div class="row">
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-        </div>
-    </div>
     <!-- creativity LOLITA -->
     <!-- realistic plius numbers JURGITA-->
     <!-- core services OSVALDAS-->
@@ -30,7 +23,7 @@
     <!-- contact me ŽIVILĖ -->
     <section class="container neuron-contact">
         <div class="row">           
-            <div class="col-12 col-lg-5 ">
+            <div class="col-12 col-lg-5">
                 <div class="contact-information">
                     <div class="contact-icon-place">
                         <i class="flaticon-map-location"></i>
@@ -40,62 +33,77 @@
                     </div>
 
                     <div class="contacts-all">
-                        <div class="icon-place">
-                            <i class="flaticon-placeholder"></i>
+                        <div class="sec-icon">
+                            <div class="icon">
+                                <i class="flaticon-placeholder"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4>Visit us</h4>
+                                <p>530 Old BUffalo Street <br> Northwest #205, New York - 3087</p>
+                            </div>
                         </div>
-                        <div class="icon-text">
-                            <h4>Visit us</h4>
-                            <p>530 Old BUffalo Street <br> Northwest #205, New York - 3087</p>
+                        
+                        <div class="sec-icon">
+                            <div class="icon">
+                                <i class="flaticon-mobile-phone"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4>Call us</h4>
+                                <a href="#">+1(123)-456-7890</a>
+                                <br>
+                                <a href="#">+1(123)-456-7890</a>
+                            </div>
                         </div>
-                        <div class="icon-place">
-                            <i class="flaticon-mobile-phone"></i>
-                        </div>
-                        <div class="icon-text">
-                            <h4>Call us</h4>
-                            <a href="#">+1(123)-456-7890</a>
-                            <br>
-                            <a href="#">+1(123)-456-7890</a>
-                        </div>
-                        <div class="icon-place">
-                            <i class="flaticon-mail"></i>
-                        </div>
-                        <div class="icon-text">
-                            <h4>Email us</h4>
-                            <a href="#">infoname@gmail.com</a>
-                            <br>
-                            <a href="#">www.yourname.com</a>
+
+                        <div class="sec-icon">
+                            <div class="icon">
+                               <i class="flaticon-mail"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4>Email us</h4>
+                                <a href="#">infoname@gmail.com</a>
+                                <br>
+                                <a href="#">www.yourname.com</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>   
-            <div class="col-12 col-lg-7 ">
-                <div class="message-form">
+            <div class="col-12 col-lg-7">
+                <form class="message-form">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <input id="msg-name" type="text" placeholder="Name" required>
-                            <input id="msg-email" type="email" placeholder="E-Mail" required>
+                            <div class="field">
+                                <input id="msg-name" type="text" placeholder="Name" required>   
+                            </div>    
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-12 col-lg-6">
-                            <input id="msg-phone" type="number" placeholder="Phone number" required>
-                            <input id="msg-subject" type="subject" placeholder="Subject" required>
+                            <div class="field">
+                                <input id="msg-email" type="email" placeholder="E-Mail" required>
+                            </div>    
+                        </div>
+                    <div class="row">  
+                        <div class="col-12 col-lg-6">
+                            <div class="field">
+                                <input id="msg-phone" type="number" placeholder="Phone number" required>
+                            </div>    
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="field">
+                                <input id="msg-subject" type="subject" placeholder="Subject" required>
+                            </div>    
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <textarea id="msg" placeholder="Your Message here" required></textarea>
-                        </div>
+                    <div class="field">
+                        <textarea id="msg" placeholder="Your Message here" required></textarea>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <button class="submit-btn" type="submit">Submit now</button>
-                        </div>
+                    <div class="form-btn">
+                        <button type="submit">Submit now</button>
                     </div>
-                </div>
+                    </div>
+                </form>
             </div>   
         </div>
-
     </section>
     
     <!-- footer KAROLIS -->
