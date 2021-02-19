@@ -1,5 +1,10 @@
-body,
-body * {
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body,
+  body * {
     margin: 0;
     padding: 0;
     vertical-align: top;
