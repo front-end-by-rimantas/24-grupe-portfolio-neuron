@@ -91,7 +91,10 @@ hr {
 
 .header-menu-section {
     display: table-cell;
-    padding: 15px 0 0 15px;
+    padding: 15px 0 0 30px;
+    font-size: 16px;
+    line-height: 70px;
+    font-weight: 500;
 }
 
 .header-menu-section {
@@ -114,7 +117,7 @@ hr {
     display: block;
     color: #eee;
     background-color: #eee;
-    transform: translateX(-37%);
+    /* transform: translateX(-37%); */
 }
 
 .header-menu a:visited {
@@ -142,13 +145,20 @@ hr {
 
 }
 
-.dropdown-content, .dropdown-content-pages {
+.dropdown-content {
     opacity: 0;
     animation-name: dropdown-content;
-    animation-duration: 2000ms;
+    animation-duration: 700ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 
+}
+
+.dropdown-content-pages {
+    animation-name: slit-in-horizontal;
+    animation-duration: 700ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
 }
 
 .dropdown-content a:hover, .dropdown-content-pages a:hover {
@@ -159,13 +169,23 @@ hr {
 .header-menu-section:hover .dropdown-content-pages {
     display: block;
     background-color:#eee;
-    transform: translateX(-44%);
     column-count: 3;
     }
 
 
 .container .header-menu .header-menu-section a:hover {
     color: #eee;
+}
+
+.fa-shopping-bag, .fa-search {
+    color: #01a0f9;
+    padding-top: 40px;
+
+}
+
+.fa-shopping-bag {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 @keyframes dropdown-content {
@@ -182,6 +202,39 @@ hr {
     }
 }
 
+@-webkit-keyframes slit-in-horizontal {
+    0% {
+      -webkit-transform: translateZ(-800px) rotateX(90deg);
+              transform: translateZ(-800px) rotateX(90deg);
+      opacity: 0;
+    }
+    54% {
+      -webkit-transform: translateZ(-160px) rotateX(87deg);
+              transform: translateZ(-160px) rotateX(87deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(0) rotateX(0);
+              transform: translateZ(0) rotateX(0);
+              ;
+    }
+  }
+  @keyframes slit-in-horizontal {
+    0% {
+      -webkit-transform: translateZ(-800px) rotateX(90deg);
+              transform: translateZ(-800px) rotateX(90deg);
+      opacity: 0;
+    }
+    54% {
+      -webkit-transform: translateZ(-160px) rotateX(87deg);
+              transform: translateZ(-160px) rotateX(87deg) translateX(-17%);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(0) rotateX(0);
+              transform: translateZ(0) rotateX(0) translateX(0) translateX(-37%);
+    }
+  }
 
 /* <!-- creativity -->
 <!-- realistic plus numbers JURGITA-->
