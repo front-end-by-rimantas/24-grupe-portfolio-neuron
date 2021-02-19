@@ -35,12 +35,12 @@ hr {
     }
 
 .contact {
-    color: #01a0f9;
+    color: white;
     float: left;
 }
 
 .contact > a {
-    color: #01a0f9;
+    color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     transition: all 1s;
@@ -51,7 +51,7 @@ hr {
 .toolbar a:active, .toolbar a:hover {
   text-decoration: none;
   outline: 0 none;
-  color: #09c778;
+  color: #A0DCFD;
 
 
 }
@@ -67,7 +67,7 @@ hr {
 }
 
 .icons .fa {
-    color: #01a0f9;
+    color: white;
     transition: all 1s;
 }
 
@@ -119,8 +119,8 @@ hr {
 
 .header-menu-section:hover .dropdown-content {
     display: block;
-    color: #eee;
-    background-color: #eee;
+    color: #A0DCFD;
+    background-color: #A0DCFD;
     font-size: 16px;
     font-weight: 400;
     /* transform: translateX(-37%); */
@@ -128,7 +128,7 @@ hr {
 
 .header-menu-section:hover .dropdown-content-pages {
     display: block;
-    background-color:#eee;
+    background-color:#A0DCFD;
     column-count: 3;
     font-size: 16px;
     font-weight: 400;
@@ -137,7 +137,7 @@ hr {
 
 .header-menu a:visited {
     text-decoration: none;
-    color:#01a0f9;
+    color:white;
     
 }
 
@@ -177,18 +177,18 @@ hr {
 }
 
 .dropdown-content a:hover, .dropdown-content-pages a:hover {
-    color: #eee;
-    background-color:#01a0f9;   
+    color: #A0DCFD;
+    background-color:white;   
 }
 
 
 
 .container .header-menu .header-menu-section a:hover {
-    color: #eee;
+    color: #A0DCFD;
 }
 
 .fa-shopping-bag, .fa-search {
-    color: #01a0f9;
+    color: white;
     padding-top: 40px;
 
 }
@@ -197,6 +197,19 @@ hr {
     padding-right: 30px;
     padding-left: 30px;
 }
+
+.main-hero {
+    background: url(../images/h1-s1.jpg);
+    background: cover;
+    height: 860px;
+
+}
+
+.flex {
+    display: flex;
+
+}
+
 
 @keyframes dropdown-content {
 
@@ -237,7 +250,7 @@ hr {
     }
     54% {
       -webkit-transform: translateZ(-160px) rotateX(87deg);
-              transform: translateZ(-160px) rotateX(87deg) translateX(-17%);
+              transform: translateZ(-160px) rotateX(87deg) translateX(-37%);
       opacity: 1;
     }
     100% {
