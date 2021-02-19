@@ -1,10 +1,10 @@
 .neuron-contact {
     display: inline-block;
     padding-bottom: 30px;
-    background-image: url(../image/h1-s1.jpg);
+    background-image: url(../image/contact-bg.jpg);
     background-size: cover;
-    background-position: center bottom;
-    background-attachment: fixed;
+    background-position: center top;
+
 }
 .contact-information {
     display: inline-block;
@@ -15,6 +15,7 @@
     float: left;
     background-color: #fff;
     margin-top: 0%;
+    border-radius: 5px;
     color: #666666;
 }
 
@@ -22,7 +23,7 @@
     display: inline-block;
     font-size: 100px;
     line-height: 100px;
-    margin: 0;
+    margin:0 0 20px 0;
     width: 100%;
     color: transparent;
     background-clip: text;
@@ -31,18 +32,14 @@
 
 }
 .contact-title{
-    display: inline-block;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    color: #333333;
-    margin-bottom: 26px;
-
 }
 .title {
-    color: black;
+    color: #333333;
     font-size: 30px;
     line-height: 32px;
     font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 26px;
 }
 .contacts-all{
     display: inline-block;
@@ -65,8 +62,7 @@
 }
 .icon-text{
     box-sizing: border-box;
-    float: left;
-       
+    float: left;       
 }
 h4 {
     display: inline-block;
@@ -81,33 +77,22 @@ h4 {
   
 }
 
-.contact-all > a {
-    display: block;
-    width: 100%;
+.icon-text > a {
     color: #666666;
-    float: left;
-}
-.flaticon-placeholder:before{
-    display: inline-block;
-    font-size: 30px;
-    margin: 10px 0 0 0;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-image:linear-gradient(0deg, #09c778, #01a0f9);
-    float: left;
-}
-.flaticon-mobile-phone:before {
-    display: inline-block;
-    font-size: 30px;
-    margin: 10px 0 0 0;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-image:linear-gradient(0deg, #09c778, #01a0f9);
-    float: left;
+    font-size: 15px;
+    line-height: 26px;
+    text-decoration: none;
 }
 
+.icon-text > a:hover {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(0deg, #09c778, #01a0f9);
+
+}
+.flaticon-placeholder:before,
+.flaticon-mobile-phone:before,
 .flaticon-mail:before{
     display: inline-block;
     font-size: 30px;
@@ -123,36 +108,37 @@ h4 {
 .field {
 }
 
-input{
+input,
+textarea{
     display: inline-block;
     width: 100%;
     font-size: 15px;
     color: white;
     line-height: 20px;
     background: rgba(255, 255, 255, 0.3);
-    border: unset;
+    border: none;
     border-radius: 5px;
     margin: 0 0 30px;
     padding: 20px;
+    outline: none;
 }
 textarea {
-    display: inline-block;
-    font-size: 15px;
-    color: white;
-    line-height: 20px;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    border:unset;
-    border-radius: 5px;
-    outline: none;
-    margin: 0 0 30px;
-    padding: 20px;
+    min-height: 120px;
+
 }
+
 ::placeholder{
     color: white;
 }
 .form-btn > button {
     width: 100%;
-    line-height: 40px;
+    background-color: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
 }
 
