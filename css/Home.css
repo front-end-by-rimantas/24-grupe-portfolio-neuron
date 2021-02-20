@@ -203,8 +203,9 @@ hr {
 .main-hero {
     background: url(../images/h1-s1.jpg);
     background: cover;
-    height: 860px;
+    height: 900px;
 
+    
 }
 
 .hero-layout {
@@ -232,13 +233,15 @@ hr {
     width: var(--col7);
     display: flex;
     align-items: flex-end;
-
+    
     margin-right: 0;
 }
 
 .hero-image-pack > img {
     float: right;
     margin-right: 0; 
+
+
 }
 
 
@@ -283,6 +286,20 @@ border: 1px solid #ffffff;
     background-color: #ffffff;
     color: #01a0f9;
 }
+
+.animate1 {
+    animation: animate1 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes animate1 {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -30px, 0);
+    }
 
 @keyframes dropdown-content {
 
