@@ -233,8 +233,9 @@ hr {
     width: var(--col7);
     display: flex;
     align-items: flex-end;
-    
+    float: right;
     margin-right: 0;
+
 }
 
 .hero-image-pack > img {
@@ -287,21 +288,21 @@ border: 1px solid #ffffff;
     color: #01a0f9;
 }
 
-.animate1 {
-    animation: animate1 2s;
+.robot-hover {
+    animation: robot-hover 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
 
-  @keyframes animate1 {
+@keyframes robot-hover {
     from {
       transform: translate3d(0, 0, 0);
     }
     to {
       transform: translate3d(0, -30px, 0);
     }
-
-@keyframes dropdown-content {
+}
+    @keyframes dropdown-content {
 
     0% {
         opacity: 0%;
