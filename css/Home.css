@@ -28,7 +28,8 @@ width: 100%;
 }
 
 hr {
-    margin-top: 22px;}
+    margin-top: 22px;
+    color: blue;}
 
 .icons {
     float: right;
@@ -97,6 +98,7 @@ hr {
     font-size: 17px;
     line-height: 70px;
     font-weight: 500;
+    /* outline: 0; */
 }
 
 .header-menu-section {
@@ -205,11 +207,46 @@ hr {
 
 }
 
-.flex {
+.hero-layout {
     display: flex;
+    padding-top: 100px;
+
 
 }
 
+.hero-layout h1 {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+    float: right;
+}
+
+.hero-h1 {
+    width: var(--col5);
+}
+
+.hero-image-pack {
+    width: var(--col7);
+    display: flex;
+    align-items: flex-end;
+
+    margin-right: 0;
+}
+
+.hero-image-pack > img {
+    float: right;
+    margin-right: 0; 
+}
+
+
+.hero-h1 > p {
+    color:white;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 14px 0 42px;
+}
 
 @keyframes dropdown-content {
 
