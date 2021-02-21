@@ -146,9 +146,3 @@ textarea {
 .form-btn > button:hover {
     color: var(--teal); 
 }
-
-.kitas {
-    height: 500px;
-    background-color: lavender;
-}
-
