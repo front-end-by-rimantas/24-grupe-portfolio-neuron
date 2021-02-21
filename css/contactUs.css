@@ -1,73 +1,75 @@
 .neuron-contact {
     display: inline-block;
     padding-bottom: 30px;
-    background-image: url(../image/contact-bg.jpg);
+    background-image: url(../images/contact-bg.jpg);
     background-size: cover;
-    background-position: center top;
+    background-position: left top;
+}
 
-}
-.neuron-contact > .row{
-    margin: 0;
-    width: 100%;
-}
 .contact-information {
     display: inline-block;
-    font-size: 15px;
-    line-height: 31px;
-    padding: 44px 50px 30px;
     width: 100%;
+    padding: 44px 50px 30px;
+    margin-top: -35%;
     float: left;
     background-color: #fff;
-    margin-top: -35%;
     border-radius: 5px;
-    color: #666666;
+    font-size: 15px;
+    line-height: 31px;
+    color: var(--main-color);
 }
 
 .flaticon-map-location:before {
     display: inline-block;
+    width: 100%;
+    margin: 0 0 20px 0;
     font-size: 100px;
     line-height: 100px;
-    margin:0 0 20px 0;
-    width: 100%;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
+}
 
-}
-.contact-title{
-}
 .title {
-    color: #333333;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-bottom: 26px;
     font-size: 30px;
     line-height: 32px;
     font-family: sans-serif;
     text-transform: capitalize;
-    margin-bottom: 26px;
 }
+
 .contacts-all{
     display: inline-block;
     width: 100%;
+    float: left;
     text-align: left;
 }
+
 .sec-icon{
     display: inline-block;
-    float: left;
     width: 100%;
+    float: left;
     margin-bottom: 30px;
-   
 }
+
 .icon{
     display: inline-block;
-    width: auto;
+    width: 31px;
     float: left;
-    margin: 0 20px 0 0;
-   
+    margin: 0 20px 0 0;  
 }
+
 .icon-text{
     box-sizing: border-box;
-    float: left;       
+    width: calc((100%-51px) / 2);
+    float: left; 
+    color: var(--text-color);      
 }
+
 h4 {
     display: inline-block;
     width: 100%;
@@ -76,13 +78,9 @@ h4 {
     float: left;
     color: #333333;
 }
-.contacts-all > p {
-    box-sizing: border-box;
-  
-}
 
 .icon-text > a {
-    color: #666666;
+    color: var(--text-color);
     font-size: 15px;
     line-height: 26px;
     text-decoration: none;
@@ -99,53 +97,56 @@ h4 {
 .flaticon-mobile-phone:before,
 .flaticon-mail:before{
     display: inline-block;
-    font-size: 30px;
+    width: 100%;
+    float: left;
     margin: 10px 0 0 0;
+    font-size: 30px;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
-    float: left;
-}
-.message-form {
-}
-.field {
 }
 
 input,
 textarea{
     display: inline-block;
     width: 100%;
+    padding: 20px;
+    margin: 0;
     font-size: 15px;
-    color: white;
     line-height: 20px;
-    background: rgba(255, 255, 255, 0.3);
     border: none;
     border-radius: 5px;
-    margin: 0;
-    padding: 20px;
+    color: white;
     outline: none;
+    background: rgba(255, 255, 255, 0.3);
 }
-textarea {
-    min-height: 120px;
-    margin: 0 0 50px;
 
+textarea {
+    margin: 0 0 50px;
+    min-height: 120px;
 }
 
 ::placeholder{
     color: white;
 }
+
 .form-btn > button {
     width: 100%;
-    background-color: #fff;
     height: 60px;
-    line-height: 60px;
     font-size: 18px;
+    line-height: 60px;
     border: none;
     border-radius: 5px;
-    text-transform: uppercase;
     outline: none;
+    text-transform: uppercase;
+    background-color: #fff;
 }
+
+.form-btn > button:hover {
+    color: var(--teal); 
+}
+
 .kitas {
     height: 500px;
     background-color: lavender;
