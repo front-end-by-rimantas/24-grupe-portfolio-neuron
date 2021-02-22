@@ -1,6 +1,8 @@
 @import './components/reset.css';
 @import './components/layout.css';
-@import './core.css'
+@import './core.css';
+@import './components/flaticon.css';
+
 
 /* CUSTOM HOME PAGE CSS */
 
