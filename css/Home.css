@@ -29,7 +29,7 @@ width: 100%;
 
 hr {
     margin-top: 22px;
-    border-color: #0494e3;}
+    /* border-color: #0494e3;*/} 
 
 .icons {
     float: right;
@@ -73,7 +73,7 @@ hr {
 }
 
 .icons .fa:active, .icons .fa:hover {
-    color: #09c778;
+    color: #A0DCFD;
 }
 
 .fa-google-plus, .fa-twitter, .fa-linkedin {
@@ -99,11 +99,13 @@ hr {
     line-height: 70px;
     font-weight: 500;
     /* outline: 0; */
+    
 }
 
 .header-menu-section {
     position: relative;
     perspective: 1000px;
+    
 
 }
 
@@ -114,6 +116,8 @@ hr {
     min-width: 200px;
     font-size: 16px;
     font-weight: 400px;
+    transition: all 1s;
+    
 
 
 }
@@ -127,6 +131,7 @@ hr {
     font-size: 16px;
     font-weight: 400;
     /* transform: translateX(-37%); */
+    
 }
 
 .header-menu-section:hover .dropdown-content-pages {
@@ -146,6 +151,7 @@ hr {
 
 .header-menu a {
     text-decoration: none;
+    transition: all 1s;
 }
 
 .dropdown-content-pages {
@@ -154,13 +160,15 @@ hr {
     width: 100%;
     min-width: 600px;
     z-index: 5;
+    
 
 }
 
 .dropdown-content a, .dropdown-content-pages a {
     display: block;
     padding: 6px 15px;
-
+    
+    
 
 }
 
@@ -170,6 +178,7 @@ hr {
     animation-duration: 700ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+
 
 }
 
@@ -183,23 +192,31 @@ hr {
 .dropdown-content a:hover, .dropdown-content-pages a:hover {
     color: #A0DCFD;
     background-color:white;
+        
 }
 
 
 
 .container .header-menu .header-menu-section a:hover {
-    color: #A0DCFD;
+    color: #ccc;
 }
 
 .fa-shopping-bag, .fa-search {
     color: white;
     padding-top: 40px;
+    
+}
 
+.fa-shopping-bag:hover, .fa-search:hover {
+    color: #666666;
+    cursor: pointer;
+    transition: all 1s;
 }
 
 .fa-shopping-bag {
     padding-right: 30px;
     padding-left: 30px;
+    margin-left: 30px;
 }
 
 .main-hero {
@@ -232,14 +249,18 @@ hr {
 }
 
 .hero-h1 {
-    width: var(--col5);
+ 
+    /* width: var(--col5); */
+    width: 100%;
+    margin-right: 50px;
+    transform: translateY(-50px);
 }
 
 .hero-image-pack {
     width: var(--col7);
     display: flex;
     align-items: flex-end;
-   
+    justify-content: flex-end;
     margin-right: 0;
 
 }
