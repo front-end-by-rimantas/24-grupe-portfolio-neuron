@@ -9,9 +9,9 @@ _24 group portfolio website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://front-end-by-rimantas.github.io/24-grupe-portfolio/
+Site published at https://front-end-by-rimantas.github.io/24-grupe-portfolio-neuron/
 
-Design: [Martin](http://inventheme.com/themeforest/martin/)
+Design:  [Neuron](http://demo.auburnforest.com/html/neuron/demo/index.html)
 
 ## Project features
 
@@ -23,8 +23,10 @@ Design: [Martin](http://inventheme.com/themeforest/martin/)
 -   form validations
 -   AJAX (data request)
 
-## Authors
-
-Rimantas: [Github](https://github.com/belauzas)
-
-_susirašome savo vardus ir nuorodas į Github profilį ir/arba Linkedin profilį_
+### Authors
+[Martynas](https://github.com/Kraske8) <br>
+[Karolis](https://github.com/KarolisVJ) <br>
+[Zivile](https://github.com/zvlzvl) <br>
+[Osvaldas](https://github.com/oswiux) <br>
+[Jurgita](https://github.com/Baniene) <br>
+[Lolita](https://github.com/LolaLu1) <br>
