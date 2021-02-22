@@ -18,7 +18,6 @@ html, body {
 padding: 0 100px;
 width: 100%;
 float: left;
-
 }
 
 .toolbar {
@@ -54,8 +53,6 @@ hr {
   text-decoration: none;
   outline: 0 none;
   color: #A0DCFD;
-
-
 }
 
 .contact > .fa-phone {
@@ -89,7 +86,6 @@ hr {
 .header-menu {
     display: table;
     float: right;
-
 
 }
 
@@ -147,9 +143,6 @@ hr {
 .fa-shopping-bag:hover .mini-cart {
     display: block;
 }
-
-
-
 
 .header-menu-section:hover .dropdown-content {
     display: block;
@@ -219,7 +212,6 @@ hr {
 .dropdown-content a:hover, .dropdown-content-pages a:hover {
     color: #A0DCFD;
     background-color:white;
-        
 }
 
 
@@ -231,7 +223,6 @@ hr {
 .fa-shopping-bag, .fa-search {
     color: white;
     padding-top: 40px;
-    
 }
 
 .fa-shopping-bag:hover, .fa-search:hover {
@@ -250,16 +241,12 @@ hr {
     background: url(../images/h1-s1.jpg);
     background: cover;
     height: 900px;
-
-    
 }
 
 .hero-layout {
     display: flex;
     padding-top: 100px;
     align-items: flex-end;
-
-
 }
 
 .hero-h1, .hero-image-pack {
@@ -289,14 +276,11 @@ hr {
     align-items: flex-end;
     justify-content: flex-end;
     margin-right: 0;
-
 }
 
 .hero-image-pack > img {
    
     margin-right: 0; 
-
-
 }
 
 
@@ -346,16 +330,11 @@ border: 1px solid #ffffff;
     animation: robot-hover 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-
-
 }
-
 
 .test {
     float: right;
 }
-
-
 
 @keyframes robot-hover {
     from {
@@ -396,6 +375,7 @@ border: 1px solid #ffffff;
               ;
     }
   }
+
   @keyframes slit-in-horizontal {
     0% {
       -webkit-transform: translateZ(-800px) rotateX(90deg);
