@@ -45,12 +45,12 @@
     width: 100%;
     float: left;
     margin: 0;
-    background-color: pink;
+    background-color:#fff;
   }
   .container > .row > [class*='col-'],
   .container-fluid > .row > [class*='col-'] {
     float: left;
-    background-color: yellow;
+    background-color: #fff;
     margin: 20px var(--half-gap);
   }
   .container > .row > .col-1,
