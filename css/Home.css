@@ -74,7 +74,7 @@ hr {
     color: #A0DCFD;
 }
 
-.fa-google-plus, .fa-twitter, .fa-linkedin {
+.icons .fa-google-plus, .icons .fa-twitter, .icons .fa-linkedin {
     margin-left: 15px;
 }
 
@@ -402,3 +402,66 @@ border: 1px solid #ffffff;
 <!-- recent blog post -->
 <!-- contact me ŽIVILĖ -->
 <!-- footer KAROLIS --> */
+
+.neuron-footer {
+    position: relative;
+    padding-top: 95px;
+    background: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-top {
+    padding-bottom: 85px;
+}
+
+.footer-top > .initial-box > .row {
+    display: flex;
+}
+
+.footer-boxes {
+    width: var(--col3);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer-title {
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.footer-top > .initial-box > .row {
+    background-color: magenta;
+}
+
+.footer-logo {
+    margin: 5px 0 33px;
+}
+
+.footer-social-links {
+    margin: 20px 0 0;
+}
+
+.fa-facebook::before {
+    content: "\f09a";
+
+}
+
+
+.neuron-footer .footer-top .footer-social-links li a::after {
+
+content: "";
+position: absolute;
+background: linear-gradient(41deg, #09c778, #01a0f9);
+opacity: 0;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+border-radius: 100px;
+z-index: 1;
+transition: all 0.7s ease 0s;}
