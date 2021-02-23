@@ -1,0 +1,32 @@
+.works {
+    padding-top: 100px;
+    padding-bottom: 90px;
+   }
+
+   h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+  }
+
+  h2.centered-heading {
+    text-align: center;
+  }
+
+    h2::before { 
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 32px;
+    height: 10px;
+    width: 130px;
+    background: linear-gradient(-45deg, #09c778, #01a0f9);
+  }
+
+  h2.centered-heading::before {
+    left: 50%;
+    transform:translateX(-50%);
+  }
