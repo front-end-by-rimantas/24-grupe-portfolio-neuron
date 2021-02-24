@@ -10,13 +10,20 @@
     display: inline-block;
     width: 100%;
     padding: 44px 50px 30px;
-    margin-top: -35%;
+    margin-top: -0%;
     float: left;
     background-color: #fff;
     border-radius: 5px;
     font-size: 15px;
     line-height: 31px;
     color: var(--main-color);
+    position: relative;
+    
+}
+@media (min-width: 992px) {
+    .contact-information {
+        margin-top: -35%;    
+    }
 }
 
 .flaticon-map-location:before {
@@ -30,16 +37,35 @@
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
 }
+.contact-title > .title{
+     position: relative;
+}
 
-.title {
+h2 {
+    box-sizing: border-box;
     display: inline-block;
     width: 100%;
     float: left;
-    margin-bottom: 26px;
     font-size: 30px;
     line-height: 32px;
+    margin: 0 0 26px;
     font-family: sans-serif;
     text-transform: capitalize;
+}
+@media (max-width: 480px) {
+    .contact-title > h2 {
+        font-size: 20px
+    }
+}
+
+.contact-title > .title:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 10px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%); 
 }
 
 .contacts-all{
