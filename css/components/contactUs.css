@@ -1,7 +1,7 @@
 .neuron-contact {
     display: inline-block;
     padding-bottom: 30px;
-    background-image: url(../images/contact-bg.jpg);
+    background-image: url(../../images/contact-bg.jpg);
     background-size: cover;
     background-position: left top;
 }
