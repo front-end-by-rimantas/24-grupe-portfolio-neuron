@@ -1,18 +1,19 @@
+/* init / reset */
 @import './components/reset.css';
 @import './components/layout.css';
 @import './components/flaticon.css';
 @import './components/variables.css';
-
+/* 3rd party */
+@import './components/contactUs.css';
 /* CUSTOM HOME PAGE CSS */
 
-/*<!-- header/hero KAROLIS -->
-<!-- creativity -->
-<!-- realistic plus numbers JURGITA-->
-<!-- core services -->
-<!-- latest project -->
-<!-- news -->
-<!-- works -->
-<!-- recent blog post -->
-<!-- contact me ŽIVILĖ -->*/
-@import './components/contactUs.css';
-/*<!-- footer KAROLIS --> */
+/*header/hero KAROLIS*/
+/*creativity*/
+/*realistic plus numbers JURGITA*/
+/*core services*/
+/*latest project*/
+/*news*/
+/*works*/
+/*recent blog post*/
+/*contact me ŽIVILĖ*/
+/*footer KAROLIS*/
