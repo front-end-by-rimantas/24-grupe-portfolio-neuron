@@ -9,12 +9,12 @@ const contactInfoData = {
         {
             icon: 'flaticon-mobile-phone', 
             title: 'Call us',
-            text: '+1(123)-456-7890 <br> +1(123)-456-7890'
+            text: '<a href="#">+1(123)-456-7890</a> <br> <a href="#">+1(123)-456-7890</a>'
         },
         {
             icon: 'flaticon-mail', 
             title: 'Email us',
-            text: 'infoname@gmail.com <br> www.yourname.com'
+            text: '<a href="#">infoname@gmail.com</a> <br> <a href="#">www.yourname.com</a>'
         }
        
     ]

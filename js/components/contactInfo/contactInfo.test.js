@@ -44,7 +44,34 @@ describe('Tikriname, ar objekto struktura yra tinkama', () => {
 })
 
 describe('Tinkami duomenys grazina teisinga "contactInfo" html', () => {
+    test('Neradus selectoriaus vietos, ismeta klaida', () => {
+        document.body.innerHTML = '<div id="contactInfo_block"></div>';
+        const params = {
+            selector: '#wrongContact_block',
+            list: [
+                {
+                    icon: 'flaticon-placeholder',
+                    title: 'Visit us',
+                    text: '530 Old BUffalo Street <br> Northwest #205, New York - 3087'
+                }
+            ]
+        }
+        expect(renderContactInfo(params)).toBe('Pagal pateikta selectoriu nerastas elementas');
+    })
+    test('ismeta klaida, kai nera geru duomenu sarase', () => {
+        document.body.innerHTML = '<div id="contactInfo_block"></div>';
+        const params = {
+            selector: '#contactInfo_block',
+            list: [
+                {},
+                4154,
+                'Labas'
+            ]
+        }
+        expect(renderContactInfo(params)).toBe('Duomenyse nerasta jokios teisingos informacijos')
+    })
     test('Turi grazinti "true", jei parametrai yra tinkami', () => {
+        document.body.innerHTML = '<div id="contactInfo_block"></div>';
         const params = {
             selector: '#contactInfo_block',
             list: [

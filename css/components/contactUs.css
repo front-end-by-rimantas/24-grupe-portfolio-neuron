@@ -71,7 +71,6 @@ h2 {
 }
 
 
-
 .contacts-all{
     display: inline-block;
     width: 100%;
@@ -109,14 +108,14 @@ h4 {
     color: #333333;
 }
 
-.icon-text > a {
+.icon-text > p > a {
     color: var(--text-color);
     font-size: 15px;
     line-height: 26px;
     text-decoration: none;
 }
 
-.icon-text > a:hover {
+.icon-text > p > a:hover {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
