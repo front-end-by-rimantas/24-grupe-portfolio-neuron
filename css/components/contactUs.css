@@ -108,14 +108,14 @@ h4 {
     color: #333333;
 }
 
-.icon-text > p > a {
+.icon-text > a {
     color: var(--text-color);
     font-size: 15px;
     line-height: 26px;
     text-decoration: none;
 }
 
-.icon-text > p > a:hover {
+.icon-text > a:hover {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -170,6 +170,7 @@ textarea {
     outline: none;
     text-transform: uppercase;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .form-btn > button:hover {

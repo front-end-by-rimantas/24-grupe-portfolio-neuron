@@ -84,4 +84,18 @@ describe('Tinkami duomenys grazina teisinga "contactInfo" html', () => {
         }
         expect(renderContactInfo(params)).toBeTruthy();
     })
+    test('Turi grazinti "true", jei parametrai su nuoroda yra tinkami', () => {
+        document.body.innerHTML = '<div id="contactInfo_block"></div>';
+        const params = {
+            selector: '#contactInfo_block',
+            list: [
+                {
+                    icon: 'flaticon-placeholder',
+                    title: 'Visit us',
+                    link: '+1(123)-456-7890 <br>+1(123)-456-7890'
+                }
+            ]
+        }
+        expect(renderContactInfo(params)).toBeTruthy();
+    })
 })

@@ -42,8 +42,18 @@ if (typeof data.selector !== 'string' || data.selector === ''){
                               <p>${item.text}</p>
                            </div>
                         </div>`     
+       } else if (item.icon && item.title &&item.link){
+         HTML += `<div class="sec-icon">
+                     <div class="icon">
+                        <i class="${item.icon}"></i>
+                     </div>
+                  <div class="icon-text">
+                        <h4>${item.title}</h4>
+                        <a>${item.link}</a>
+         </div>
+      </div>`     
+  }
    }
-}
  
  
    // post logic validation
