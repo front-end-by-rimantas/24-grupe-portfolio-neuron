@@ -1,6 +1,6 @@
 .neuron-contact {
     display: inline-block;
-    padding-bottom: 30px;
+    padding: 0 0 100px;
     background-image: url(../../images/contact-bg.jpg);
     background-size: cover;
     background-position: left top;
@@ -8,6 +8,7 @@
 
 .contact-information {
     display: inline-block;
+    width: 100%;
     padding: 44px 50px 30px;
     float: left;
     background-color: #fff;
@@ -134,8 +135,11 @@ h4 {
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
 }
+.namas{
+    background-color: aquamarine;
+}
 .form {
-
+    padding: 25px 0 0 0;
 }
 input,
 textarea{
