@@ -336,6 +336,31 @@ border: 1px solid #ffffff;
     float: right;
 }
 
+.sticky {
+    background: linear-gradient(-41deg
+, #09c778, #01a0f9);
+    position: fixed;
+    z-index: 999;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+    -webkit-animation-name: sticky-animation;
+    animation-name: sticky-animation;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-name: sticky-animation;
+    animation-name: sticky-animation;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
 @keyframes robot-hover {
     from {
       transform: translate3d(0, 0, 0);
