@@ -8,7 +8,6 @@
 
 .contact-information {
     display: inline-block;
-    width: 100%;
     padding: 44px 50px 30px;
     float: left;
     background-color: #fff;
@@ -21,7 +20,7 @@
 }
 @media (min-width: 992px) {
     .contact-information {
-        margin-top: -35%;    
+        margin-top: -30%;    
     }
 }
 
@@ -135,7 +134,9 @@ h4 {
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
 }
+.form {
 
+}
 input,
 textarea{
     display: inline-block;
@@ -153,7 +154,7 @@ textarea{
 
 textarea {
     margin: 0 0 50px;
-    min-height: 120px;
+    min-height: 150px;
 }
 
 ::placeholder{
