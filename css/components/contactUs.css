@@ -16,12 +16,12 @@
     font-size: 15px;
     line-height: 31px;
     color: var(--main-color);
-    position: relative;
-    
+    position: relative; 
 }
+
 @media (min-width: 992px) {
     .contact-information {
-        margin-top: -30%;    
+        margin-top: -17%;    
     }
 }
 
@@ -36,10 +36,12 @@
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
 }
+
 .contact-title > .title{
  position: relative;
  z-index: 0;
 }
+
 .contact-title > .title:after {
     content: "";
     position: absolute;
@@ -50,6 +52,7 @@
     background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%); 
     z-index: -1;
 }
+
 h2 {
     display: block;
     width: 100%;
@@ -135,18 +138,13 @@ h4 {
     -webkit-background-clip: text;
     background-image:linear-gradient(0deg, #09c778, #01a0f9);
 }
-.namas{
-    background-color: aquamarine;
-}
-.form {
-    padding: 25px 0 0 0;
-}
+
 input,
 textarea{
     display: inline-block;
     width: 100%;
     padding: 20px;
-    margin: 0;
+    margin: 0px;
     font-size: 15px;
     line-height: 20px;
     border: none;
